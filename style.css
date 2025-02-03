@@ -111,17 +111,28 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
     padding-top: 15px;
     transition: 0.3s;
 }
-.icon-medium{
-    font-size: 48px;
-    width: 48px;
-}
+
 .soc-icon:hover{
-    color: rgb(4, 113, 236);
+    background-color: rgb(4, 113, 236);
     transition: 0.3s;
+}
+.telegram-icon{
+    background-image:url('img/telegram.svg'); 
+}
+.facebook-icon{
+    background-image:url('img/facebook.svg');
+}
+.github-icon{
+    background-image:url('img/github.svg');
+}
+.linkedin-icon{
+    background-image:url('img/linkedin.svg');
 }
 #QR-BOX{
     flex:1;
