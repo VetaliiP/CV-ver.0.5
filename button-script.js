@@ -9,7 +9,7 @@ function openTab(tabId) {
     // Показать выбранную вкладку
     document.getElementById(tabId).classList.add('active');
     // Добавить класс 'active' к выбранной кнопке
-    this.target.classList.add('active');
+    // event.target.classList.add('active');
 
 }
 

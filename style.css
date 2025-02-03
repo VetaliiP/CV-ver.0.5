@@ -1,3 +1,5 @@
+@import "node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
 *{
     padding:0;
     margin:0;
@@ -109,6 +111,17 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    padding-top: 15px;
+    transition: 0.3s;
+}
+.icon-medium{
+    font-size: 48px;
+    width: 48px;
+}
+.soc-icon:hover{
+    color: rgb(4, 113, 236);
+    transition: 0.3s;
 }
 #QR-BOX{
     flex:1;
@@ -123,6 +136,10 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('img/QR-CV.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 #RIGHT_DINAMYX_BOX{
     width: 81%;
