@@ -1,0 +1,133 @@
+#ABOUT-SKILLS{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#ABOUT-SKILLS > div {
+    width: 100%;
+
+}
+.logo-skills{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Oswald", serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+
+    background-color: rgb(4, 113, 236);;
+}
+.icon-skills{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    flex-direction: row;
+
+    padding-left: 20px;
+
+}
+.icon-skills > div {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Oswald", serif;
+    font-weight: 600;
+    font-size: 48px;
+    text-transform: uppercase;
+
+    margin:0 5px 0 5px;
+    /* padding-left: 15px;
+    border-left: 4px solid rgb(4, 113, 236); */
+
+    /* background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;  */
+}
+/* .html{
+    background-image: url('img/Asset 2.svg');
+}
+.css{
+    background-image: url('img/Asset 1.svg');
+}
+.js{
+    background-image: url('img/Asset 5.svg');
+}
+.tp{
+    background-image: url('img/Asset 4.svg'); 
+} */
+.deployment-box{
+    display: flex;
+    /* flex-grow: 0.5; */
+}
+.api-box{
+    display: none;
+    /* flex-grow: 1; */
+}
+.auth-box{
+    display: none;
+    /* flex-grow: 1; */
+}
+.data-base-box{
+    display: flex;
+    /* flex-grow: 0.5; */
+}
+.state-management-box{
+    display: none;
+    /* flex-grow: 1; */
+}
+.assembly-box{
+    display: none;
+    /* flex-grow: 1; */
+    
+}
+.framework-box{
+    display: flex;
+    /* flex-grow: 0.5; */
+}
+.base-box{
+    display: flex;
+    height: auto;
+}
+.gpt-box{
+    display: flex;
+    /* height: 10%; */
+}
+.explanation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+
+}
+.explanation div{
+    font-family: "Oswald", serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    margin:0 15px 0 15px;
+}
+.learned , .l{
+    padding-left: 15px;
+    border-left: 8px solid rgb(4, 113, 236);
+}
+.not-learned, .nl{
+    padding-left: 15px;
+    border-left: 8px solid rgb(236, 220, 4);
+}

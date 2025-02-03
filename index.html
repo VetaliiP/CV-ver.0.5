@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-about.css">
+    <link rel="stylesheet" href="style-skills.css">
+    <link rel="stylesheet" href="style-exp.css">
+    <link rel="stylesheet" href="style-portfolio.css">
+   
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js" defer></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js" async></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" defer></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <section id="CONTAINER">
+        <div id="LEFT_STATIC_BOX">
+            <div id="ME">
+                <div class="name">Vitalii Pererva</div>
+                <div></div>
+                <div class="mail">
+
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pvty36@gmail.com&su=Тема&body=Доброго дня Віталій," target="_blank">pvty36@gmail.com</a>
+                    <!-- <a href="mailto:pvty36@gmail.com?subject=Вопрос&body=Здравствуйте,"></a> -->
+                </div>
+            </div>
+            <div id="NAVIGATE">
+                <div id="BUTTON-BOX">
+                    <div class="button-nav" onclick="handleClick(event)" id="CV">ПРО МЕНЕ</div>
+                    <div class="button-nav" onclick="handleClick(event)" id="EXPERIENCE">ДОСВІД ТА НАВЧАННЯ</div>
+                    <div class="button-nav" onclick="handleClick(event)" id="SKILLS">НАВИЧКИ</div>
+                    <div class="button-nav" onclick="handleClick(event)" id="HOBBY">ПОРТФОЛІО</div>
+                </div>
+                <div id="SOCIAL-BOX">
+                    <div  class="soc-icon">Telegram</div>
+                    <div  class="soc-icon">Facebook</div>
+                    <div  class="soc-icon">GitHub</div>
+                    <div  class="soc-icon">LinkedIn</div>
+                </div>
+                <div id="QR-BOX">
+                    <div class="qr-image">
+                        QR
+                    </div>
+                </div>            
+            </div>
+        </div>
+        <div id="RIGHT_DINAMYX_BOX" >
+            <div id="LOAD_SPACE" >
+                <!-- <div id="ABOUT-ME">
+                    <div class="intro text-box">
+                        <p>
+                                Вітаю, мене звати Перерва Віталій, я розробник почактівець 
+                            із знанням різноманітних мов програмування. Я створий цей сайт у якості резюме та демонстрації
+                            своїх вмінь та знань. 
+                        </p>
+                    </div>
+                    <div class="main text-box">
+                        <p>
+                                На жаль я не маю комерційного досвіду розробки веб сторінок і додатків, але маю чималий досвід викладача 
+                            із програмування ,а також досвід керівника невеликих навчальних закладів та керівництва персоналу. Протягом 
+                            всієї кар'єри більш за все уваги я придиляв навчанню, тому мене дуже цікавлять вакансії із можливостю
+                            навчатися та розвиватися. Вмію самоорганізовуватися та займатися самостійним навчанням в будь якому напрямку. 
+                        </p>
+                    </div>    
+                    <div class="photo">
+                        Тут фото
+                    </div>
+                    <div class="conclusion text-box">
+                        <p>
+                                Зокрема веб розробки мене також цікавить робота в області робототехніки, автоматизації, та особливо 3D друку
+                            або підтримка та налаштування різних ЧПУ верстатів та 3D принтерів.
+                        </p>
+                    </div>
+                    
+                </div> -->
+
+                <!-- <div  id="ABOUT-EXP">
+                    <div class="event-above">
+                        <div class="education-1">
+                            <div class="event-name">
+                                <h6>
+                                    Мелітопольський інститут 
+                                    державного та муніципального 
+                                    управління 
+                                    «Класичного приватного унверситету»
+                                </h6>
+                            </div>
+                            <div class="event-description">
+                                <p>
+                                    Технічний фахівець 
+                                    у галузі прикладних
+                                    наук та техніки.
+                                </p>
+                                <p>
+                                    Напрямок: Системний аналіз.
+                                </p>
+                            </div>
+                            <div class="event-date">2015-2019</div>
+                        </div>
+                        <div class="education-2">
+                            <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
+                            <div class="event-description">
+                                <p>
+                                    Курси підготовки з 
+                                    педагогіки та психології
+                                    в освітній сфері.
+                                </p>
+                            </div>
+                            <div class="event-date">2020</div>
+                        </div>
+                        <div class="education-3">
+                            <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
+                            <div class="event-description">
+                                <p>
+                                    Курси з розрокби ігр 
+                                    в середовищі Unity.
+                                    Програмування на C#
+                                </p> 
+                            </div>
+                            <div class="event-date">2020</div>
+                        </div>
+                        <div class="education-4">
+                            <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
+                            <div class="event-description">
+                                <p>
+                                    Курси з веб розрокби
+                                    в середовищі VS code. 
+                                    Программування на:
+                                </p>
+                                <div>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>Node.js</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="event-date">2021</div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="event-below">
+                        <div class="work-1">
+                            <div class="event-date">2015-2020</div>
+                            <div class="event-name"><h6>Енергодарська ДЮСШ №1</h6></div>
+                            <div class="event-description">
+                                <h6>
+                                    Керівник гуртка робототехніки
+                                </h6>
+                                <div style="padding-left:20px;">
+                                    <ul>
+                                        <li>Розробка навчальних програм та планів для участників гуртка.</li>
+                                        <li>Керівництво роботою команди інструкторів та викладачів.</li>
+                                        <li>Участь у розробці та впровадженні нових проектів в галузі робототехніки.</li>
+                                        <li>Забезпечення підтримки та обслуговування обладнання, що використовується у навчальному процесі.</li>
+                                        <li>Співпрацював з місцевими школами для популяризації робототехніки та STEM-дисциплін.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="work-2">
+                            <div class="event-date">2019-2023</div>
+                            <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
+                            <div class="event-description">
+                                <h6>
+                                    Керівник приватної школи програмування та робототехніки
+                                </h6>
+                                <div style="padding-left:20px;">
+                                    <ul>
+                                        <li>Координація роботи викладачів та інструкторів у приватній школі.</li>
+                                        <li>Розробка та управління навчальними програмами з програмування та робототехніки.</li>
+                                        <li>Організація та проведення позакласних заходів та змагань з робототехніки.</li>
+                                        <li>Створення нових курсів та оновлення існуючих навчальних матеріалів з робототехніки та програмування.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div> -->
+
+                <!-- <div id="PORTFOLIO">
+                    <div class="example-1">ЗРАЗОК</div>
+                    <div class="example-2">ЗРАЗОК</div>
+                    <div class="example-3">ЗРАЗОК</div>
+                    <div class="example-4">ЗРАЗОК</div>
+                    <div class="example-5">ЗРАЗОК</div>
+                    <div class="example-6">ЗРАЗОК</div>
+                    <div class="example-7">ЗРАЗОК</div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <script src="button-script.js"></script>
+</body>
+</html>

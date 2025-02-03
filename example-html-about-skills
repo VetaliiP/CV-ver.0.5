@@ -1,0 +1,98 @@
+<div id="ABOUT-SKILLS">
+                    <div class="deployment-box">
+                        <div class="logo-skills">
+                            Інструменти та плафторми для розгортання
+                        </div>
+                        <div class="icon-skills">
+                            <div class="docker nl">Docker</div>
+                        </div>
+                    </div>
+                    <div class="api-box">
+                        <div class="logo-skills">
+                            API
+                        </div>
+                        <div class="icon-skills">
+                            <div class="rest nl">REST</div>
+                            <div class="graphql nl">GraphQL</div>
+                        </div>
+                    </div>
+                    <div class="auth-box">
+                        <div class="logo-skills">
+                            Аутентифікація та авторизація
+                        </div>
+                        <div class="icon-skills">
+                            <div class="jwt nl">JSON Web Tokens</div>
+                            <div class="oauth nl">OAuth</div>
+                        </div>
+                    </div>
+                        <div class="data-base-box">
+                            <div class="logo-skills">
+                                Бази даних
+                            </div>
+                            <div class="icon-skills">
+                                <div class="sql nl">SQL</div>
+                                <!-- <div class="nosql">NoSQL</div>
+                                <div class="orm">ORM</div> -->
+                            </div>
+                        </div>
+                    <div class="state-management-box">
+                        <div class="logo-skills">
+                            Керування станом додатку
+                        </div>
+                        <div class="icon-skills">
+                            <div class="redux nl">Redux</div>
+                            <div class="mobx nl">Mobx</div>
+                        </div>
+                    </div>
+                    <div class="assembly-box">
+                        <div class="logo-skills">
+                            Збірка модулів та інструменти збірки
+                        </div>
+                        <div class="icon-skills">
+                            <!-- <div class="webpack">Webpack</div>
+                            <div class="parcel">Parcel</div> -->
+                            <div class="gulp nl">Gulp</div>
+                        </div>
+                    </div>
+                    <div class="framework-box">
+                        <div class="logo-skills">
+                            Фреймворки та бібліотеки
+                        </div>
+                        <div class="icon-skills">
+                            <div class="react nl">react</div>
+                            <div class="vue nl">vue</div>
+                            <div class="angular nl">angular</div>
+                            <div class="nest nl">Nest</div>
+                            <!-- <div class="express">ExpressJS</div> -->
+                        </div>
+                    </div>
+                    <div class="base-box">
+                        <div class="logo-skills">
+                            Мови програмування та інщі допоміжні модулі 
+                        </div>
+                        <div class="icon-skills">
+                            <div class="html l">HTML</div>
+                            <div class="css l">CSS</div>
+                            <div class="js l">JavaScript</div>
+                            <div class="tp nl">TypeScript</div>
+                            <div class="node l">Node</div>
+                            <div class="python l">Python</div>
+                            <div class="bootstrap l">bootstrap</div>
+                            <!-- <div class="ruby">Ruby</div> -->
+                            <div class="php nl">PHP</div>
+                        </div>
+                    </div>
+                    <div class="gpt-box">
+                        <div class="logo-skills">
+                            Використання засобів ШІ 
+                        </div>
+                        <div class="icon-skills">
+                            <div class="gpt l">GPT</div>
+                            <div class="coppilot l">COPPILOT</div>
+                        </div>
+                    </div>
+                    <div class="explanation">
+                        <div class="learned">Вже вивчено</div>
+                        <div class="not-learned">В процесі вивчення</div>
+                    </div>
+                </div>

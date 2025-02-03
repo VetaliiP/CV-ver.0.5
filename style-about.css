@@ -1,0 +1,49 @@
+#ABOUT-ME{
+    width: 95%;
+    height: 90%;
+
+}
+.text-box{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    border:3px solid rgb(4, 113, 236);
+}
+.text-box{
+    font-size: 20px;
+    text-align: justify
+}
+.text-box p{
+        text-indent:30px;
+}
+#ABOUT-ME .photo{
+    width: 250px;
+    height: auto;
+    border: 1px solid black;
+}
+#ABOUT-ME {
+    display: grid;
+    grid-template-areas: 
+        "intro intro photo photo photo"
+        "main main photo photo photo"
+        "conclusion conclusion conclusion conclusion conclusion";
+    gap: 20px;
+}
+
+.intro {
+    grid-area: intro;
+}
+.main {
+    grid-area: main;
+}
+.photo {
+    grid-area: photo;
+}
+.conclusion {
+    grid-area: conclusion;
+}
