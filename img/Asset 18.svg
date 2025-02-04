@@ -14,7 +14,7 @@
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <g>
-      <rect class="cls-1" width="50" height="50"/>
+      <rect class="cls-1" width="50" height="50" rx="9" ry="9"/>
       <g id="layer1">
         <g id="g3019">
           <path id="path28" class="cls-2" d="m15.22,41.86v-22.58h-7.5v22.58h7.5Zm-3.75-25.66c2.62,0,4.25-1.73,4.25-3.9-.05-2.22-1.63-3.9-4.2-3.9s-4.25,1.69-4.25,3.9,1.63,3.9,4.15,3.9h.05Z"/>

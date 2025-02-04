@@ -2,6 +2,10 @@
 <svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
   <defs>
     <style>
+      .cls-1 {
+        fill: #0471ec;
+      }
+
       .cls-1, .cls-2 {
         stroke-width: 0px;
       }
@@ -13,7 +17,7 @@
   </defs>
   <g id="Layer_1-2" data-name="Layer 1">
     <g>
-      <rect class="cls-1" width="50" height="50"/>
+      <rect class="cls-1" x="0" y="0" width="50" height="50" rx="9" ry="9"/>
       <g>
         <path class="cls-1" d="m20.88,49.75C9,47.62,0,37.37,0,25,0,11.25,11.25,0,25,0s25,11.25,25,25c0,12.37-9,22.62-20.88,24.75l-1.38-1.13h-5.5s-1.38,1.13-1.37,1.13Z"/>
         <path class="cls-2" d="m34.75,32l1.12-7h-6.63v-4.87c0-2,.75-3.5,3.75-3.5h3.25v-6.38c-1.75-.25-3.75-.5-5.5-.5-5.75,0-9.75,3.5-9.75,9.75v5.5h-6.25v7h6.25v17.63c1.38.25,2.75.37,4.12.37s2.75-.12,4.12-.37v-17.63h5.5Z"/>

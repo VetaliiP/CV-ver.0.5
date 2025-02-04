@@ -24,7 +24,7 @@ html{
     justify-content: space-between;
 }
 #LEFT_STATIC_BOX{
-    width:18%;
+    width: 18%;
     height: 98%;
     border-radius: 5px;
 
@@ -141,21 +141,61 @@ html{
     transition: 0.3s;
 }
 
-.soc-icon:hover{
-    background-color: rgb(4, 113, 236);
-    transition: 0.3s;
-}
-.telegram-icon{
-    background-image:url('img/telegram.svg'); 
+/* .telegram-icon{
+    background-image:url('img/Asset\ 16.svg'); 
 }
 .facebook-icon{
-    background-image:url('img/facebook.svg');
+    background-image:url('img/Asset\ 17.svg');
 }
 .github-icon{
-    background-image:url('img/github.svg');
+    background-image:url('img/Asset\ 15.svg');
 }
 .linkedin-icon{
-    background-image:url('img/linkedin.svg');
+    background-image:url('img/Asset\ 18.svg');
+}
+.telegram-icon:hover{
+    background-image:url('img/Asset\ 35.svg');
+    transition: 0.3s; 
+}
+.facebook-icon:hover{
+    background-image:url('img/Asset\ 36.svg');
+    transition: 0.3s; 
+}
+.github-icon:hover{
+    background-image:url('img/Asset\ 34.svg');
+    transition: 0.3s; 
+}
+.linkedin-icon:hover{
+    background-image:url('img/Asset\ 37.svg');
+    transition: 0.3s; 
+} */
+.telegram-icon{
+    background-image:url('img/Asset\ 10.svg'); 
+}
+.facebook-icon{
+    background-image:url('img/Asset\ 11.svg');
+}
+.github-icon{
+    background-image:url('img/Asset\ 9.svg');
+}
+.linkedin-icon{
+    background-image:url('img/Asset\ 12.svg');
+}
+.telegram-icon:hover{
+    background-image:url('img/Asset\ 29.svg');
+    transition: 0.3s; 
+}
+.facebook-icon:hover{
+    background-image:url('img/Asset\ 30.svg');
+    transition: 0.3s; 
+}
+.github-icon:hover{
+    background-image:url('img/Asset\ 28.svg');
+    transition: 0.3s; 
+}
+.linkedin-icon:hover{
+    background-image:url('img/Asset\ 31.svg');
+    transition: 0.3s; 
 }
 #QR-BOX{
     flex:1;
@@ -194,7 +234,7 @@ html{
     justify-content: center;
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1080px){
     #CONTAINER{
         flex-direction: column;
         /* justify-content: center;
@@ -293,4 +333,97 @@ html{
         height: 85%;
     }
 }
-    
+
+@media screen and (max-width: 600px){
+    #CONTAINER{
+        height: 100vh;
+        width: 95vw;
+        margin: 0 auto;
+    }
+    #LEFT_STATIC_BOX{
+        width: 100%;
+        height: 15%;
+        flex-direction: column;
+        min-width: none;
+        /* justify-content: flex-start; */
+        align-items: normal;
+        padding-left: 5px;
+        /* border-radius: 5px;
+        margin-bottom: 20px; */
+    }
+    #ME{
+        display: flex;
+        width:  100%;
+        height: 70%;
+        border-radius: 0;
+        padding-left: 10px;
+    }
+    #NAVIGATE{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+    #RIGHT_DINAMYX_BOX{
+        width: 100%;
+        height: 85%;
+        overflow: auto;
+    }
+    #RIGHT_DINAMYX_BOX::-webkit-scrollbar {
+        display: none; 
+    }
+
+    .rotate-box{
+        display: flex;
+        width: 100%;
+    }
+    #BUTTON-BOX{
+        height: 100%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .button-nav{
+        width: 25%;
+        height: 100%;
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+    }
+    #SOCIAL-BOX{
+        display: none;
+        /* justify-content: space-around; */
+    }
+    #QR-BOX{
+        display: none;
+    }
+    /* #BUTTON-BOX{
+        height: 80%;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .button-nav{
+        width: 25%;
+        height: 100%;
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0;
+    }
+    .button-nav .button-icon{
+        width: 20px;
+        height: 20px;
+        margin-right: 0;
+        background-color: bisque;
+        
+    }
+    .button-nav .button-text{
+        display: none;
+    } */
+
+
+}    

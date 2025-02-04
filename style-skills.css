@@ -142,7 +142,7 @@
     padding-left: 15px;
     border-left: 8px solid rgb(236, 220, 4);
 }
-@media screen and (max-width: 950px){
+@media screen and (max-width: 1080px){
     .icon-skills > div {
         font-size: 36px;
     }
@@ -154,6 +154,19 @@
     }
     .explanation div{
         font-size: 18px;
+    }  
+}
+@media screen and (max-width: 600px){
+    .icon-skills > div {
+        font-size: 28px;
     }
-    
+    .logo-skills div{
+        width: 20px;
+        height: 20px;
+        min-width: 20px;
+        min-height: 20px;
+    }
+    .explanation div{
+        font-size: 18px;
+    }  
 }

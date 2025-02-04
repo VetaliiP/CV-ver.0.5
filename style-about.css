@@ -55,10 +55,25 @@
     }
     
 }
-@media screen and (max-width: 950px){
+@media screen and (max-width: 750px){
+    #ABOUT-ME {
+        display: grid;
+        grid-template-areas: 
+            "intro intro intro photo photo"
+            "main main main main main"
+            "conclusion conclusion conclusion conclusion conclusion"
+            "conclusion conclusion conclusion conclusion conclusion";
+        gap: 20px;
+    }
+    #ABOUT-ME .photo{
+        width: auto;
+        height: auto;
+        min-width: 150px;
+        border: 1px solid black;
+    }
     .text-box{
-        font-size: 12px;
+        font-size: 14px;
         line-height: 18px;
     }
-    
+
 }
