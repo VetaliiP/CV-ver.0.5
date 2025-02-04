@@ -1,7 +1,10 @@
+// import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 window.onload = function() {
     document.getElementById('LOAD_SPACE').innerHTML = htmlContentAboutSkills;
     openTab('SKILLS'); 
 }
+
 
 function handleClick(event) {
     const loadSpace = document.getElementById('LOAD_SPACE');
