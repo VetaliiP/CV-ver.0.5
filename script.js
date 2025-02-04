@@ -81,6 +81,7 @@ const htmlContentAboutExp = `
                                     «Класичного приватного унверситету»
                                 </h6>
                             </div>
+                            <div class="event-date">2015-2019</div>
                             <div class="event-description">
                                 <p>
                                     Технічний фахівець 
@@ -91,10 +92,11 @@ const htmlContentAboutExp = `
                                     Напрямок: Системний аналіз.
                                 </p>
                             </div>
-                            <div class="event-date">2015-2019</div>
+                            
                         </div>
                         <div class="education-2">
                             <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
+                            <div class="event-date">2020</div>
                             <div class="event-description">
                                 <p>
                                     Курси підготовки з 
@@ -102,10 +104,11 @@ const htmlContentAboutExp = `
                                     в освітній сфері.
                                 </p>
                             </div>
-                            <div class="event-date">2020</div>
+                            
                         </div>
                         <div class="education-3">
                             <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
+                            <div class="event-date">2020</div>
                             <div class="event-description">
                                 <p>
                                     Курси з розрокби ігр 
@@ -113,10 +116,11 @@ const htmlContentAboutExp = `
                                     Програмування на C#
                                 </p> 
                             </div>
-                            <div class="event-date">2020</div>
+                            
                         </div>
                         <div class="education-4">
                             <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
+                            <div class="event-date">2021</div>
                             <div class="event-description">
                                 <p>
                                     Курси з веб розрокби
@@ -132,7 +136,7 @@ const htmlContentAboutExp = `
                                     </ul>
                                 </div>
                             </div>
-                            <div class="event-date">2021</div>
+                            
                         </div>
                     </div>
                     <div class="timeline">
@@ -149,8 +153,9 @@ const htmlContentAboutExp = `
                     </div>
                     <div class="event-below">
                         <div class="work-1">
-                            <div class="event-date">2015-2020</div>
+                            
                             <div class="event-name"><h6>Енергодарська ДЮСШ №1</h6></div>
+                            <div class="event-date">2015-2020</div>
                             <div class="event-description">
                                 <h6>
                                     Керівник гуртка робототехніки
@@ -168,8 +173,9 @@ const htmlContentAboutExp = `
 
                         </div>
                         <div class="work-2">
-                            <div class="event-date">2019-2023</div>
+                            
                             <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
+                            <div class="event-date">2019-2023</div>
                             <div class="event-description">
                                 <h6>
                                     Керівник приватної школи програмування та робототехніки
