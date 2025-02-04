@@ -20,7 +20,9 @@
     "webpack-cli": "^6.0.1"
   },
   "scripts": {
-    "build": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+
   },
   "repository": {
     "type": "git",
