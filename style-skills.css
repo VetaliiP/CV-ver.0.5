@@ -29,6 +29,8 @@
 .logo-skills div{
     width: 30px;
     height: 30px;
+    min-width: 30px;
+    min-height: 30px;
     border-radius: 50px;
     background-color: black
 }
@@ -139,4 +141,19 @@
 .not-learned, .nl{
     padding-left: 15px;
     border-left: 8px solid rgb(236, 220, 4);
+}
+@media screen and (max-width: 950px){
+    .icon-skills > div {
+        font-size: 36px;
+    }
+    .logo-skills div{
+        width: 20px;
+        height: 20px;
+        min-width: 20px;
+        min-height: 20px;
+    }
+    .explanation div{
+        font-size: 18px;
+    }
+    
 }
