@@ -193,7 +193,7 @@ const htmlContentAboutSkills = `
 <div id="ABOUT-SKILLS">
                     <div class="deployment-box">
                         <div class="logo-skills">
-                            Інструменти та плафторми для розгортання
+                            <div></div>
                         </div>
                         <div class="icon-skills">
                             <div class="docker nl">Docker</div>
@@ -201,7 +201,7 @@ const htmlContentAboutSkills = `
                     </div>
                     <div class="api-box">
                         <div class="logo-skills">
-                            API
+                            <div></div>
                         </div>
                         <div class="icon-skills">
                             <div class="rest nl">REST</div>
@@ -210,7 +210,7 @@ const htmlContentAboutSkills = `
                     </div>
                     <div class="auth-box">
                         <div class="logo-skills">
-                            Аутентифікація та авторизація
+                            <div></div>
                         </div>
                         <div class="icon-skills">
                             <div class="jwt nl">JSON Web Tokens</div>
@@ -219,7 +219,7 @@ const htmlContentAboutSkills = `
                     </div>
                         <div class="data-base-box">
                             <div class="logo-skills">
-                                Бази даних
+                                <div></div>
                             </div>
                             <div class="icon-skills">
                                 <div class="sql nl">SQL</div>
@@ -229,7 +229,7 @@ const htmlContentAboutSkills = `
                         </div>
                     <div class="state-management-box">
                         <div class="logo-skills">
-                            Керування станом додатку
+                            <div></div>
                         </div>
                         <div class="icon-skills">
                             <div class="redux nl">Redux</div>
@@ -238,7 +238,7 @@ const htmlContentAboutSkills = `
                     </div>
                     <div class="assembly-box">
                         <div class="logo-skills">
-                            Збірка модулів та інструменти збірки
+                            <div></div>
                         </div>
                         <div class="icon-skills">
                             <!-- <div class="webpack">Webpack</div>
@@ -248,7 +248,7 @@ const htmlContentAboutSkills = `
                     </div>
                     <div class="framework-box">
                         <div class="logo-skills">
-                            Фреймворки та бібліотеки
+                            <div></div>
                         </div>
                         <div class="icon-skills">
                             <div class="react nl">react</div>
@@ -260,7 +260,7 @@ const htmlContentAboutSkills = `
                     </div>
                     <div class="base-box">
                         <div class="logo-skills">
-                            Мови програмування та інщі допоміжні модулі 
+                            <div></div>
                         </div>
                         <div class="icon-skills">
                             <div class="html l">HTML</div>
@@ -274,9 +274,17 @@ const htmlContentAboutSkills = `
                             <div class="php nl">PHP</div>
                         </div>
                     </div>
+                    <div class="git-box">
+                        <div class="logo-skills">
+                            <div></div>
+                        </div>
+                        <div class="icon-skills">
+                            <div class="git nl">GIT</div>
+                        </div>
+                    </div>
                     <div class="gpt-box">
                         <div class="logo-skills">
-                            Використання засобів ШІ 
+                            <div></div>
                         </div>
                         <div class="icon-skills">
                             <div class="gpt l">GPT</div>
