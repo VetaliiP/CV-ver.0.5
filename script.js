@@ -247,8 +247,8 @@ const htmlContentAboutSkills = `
                             <div></div>
                         </div>
                         <div class="icon-skills">
-                            <!-- <div class="webpack">Webpack</div>
-                            <div class="parcel">Parcel</div> -->
+                            <div class="webpack nl">Webpack</div>
+                            <!-- <div class="parcel nl">Parcel</div> -->
                             <div class="gulp nl">Gulp</div>
                         </div>
                     </div>
