@@ -355,6 +355,9 @@ a .qr-image{
         color: #FFFF;
         display: inline;
     }
+    #ME .mail{
+        display: none;
+    }
     #ME .mail a{
         color:#FFFF;
     }
