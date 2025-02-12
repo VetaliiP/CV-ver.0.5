@@ -431,7 +431,7 @@ a .qr-image{
     }
     .github-icon:hover{
         background-image:url('img/Asset\ 9.svg');
-        background-color: #FFFF; 
+        background-color: #FFFF;
     }
     .linkedin-icon:hover{
         background-image:url('img/Asset\ 12.svg'); 
@@ -442,13 +442,12 @@ a .qr-image{
     .facebook-icon{
         background-image:url('img/Asset\ 48\ white.svg'); 
     }
-    .github-iconr{
+    .github-icon{
         background-image:url('img/Asset\ 46\ white.svg');
-        background-color: rgba(38, 50, 56, 1); 
+        background-color: rgba(38, 50, 56, 1);
     }
     .linkedin-icon{
         background-image:url('img/Asset\ 49\ white.svg');
-        transition: 0.3s; 
     }
     #QR-BOX{
         display: none;
