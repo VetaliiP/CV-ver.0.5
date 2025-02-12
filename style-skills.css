@@ -32,7 +32,7 @@
     min-width: 30px;
     min-height: 30px;
     border-radius: 50px;
-    background-color: black
+    background-color: rgba(38, 50, 56, 1);
 }
 .icon-skills{
     width: 80%;
@@ -53,31 +53,22 @@
     justify-content: center;
     align-items: center;
 
-    font-family: "Oswald", serif;
-    font-weight: 600;
+    font-family: "Coolvetica", serif;
+    font-weight: 400;
+    letter-spacing: 1px;
     font-size: 48px;
     text-transform: uppercase;
 
     margin:0 5px 0 5px;
+    padding-right: 10px;
+    background-color: rgba(245, 245, 245, 1);
+
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     /* padding-left: 15px;
     border-left: 4px solid rgb(4, 113, 236); */
 
-    /* background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;  */
 }
-/* .html{
-    background-image: url('img/Asset 2.svg');
-}
-.css{
-    background-image: url('img/Asset 1.svg');
-}
-.js{
-    background-image: url('img/Asset 5.svg');
-}
-.tp{
-    background-image: url('img/Asset 4.svg'); 
-} */
 .deployment-box{
     display: flex;
     /* flex-grow: 0.5; */

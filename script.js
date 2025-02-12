@@ -74,14 +74,14 @@ const htmlContentAboutExp = `
                     <div class="event-above">
                         <div class="education-1">
                             <div class="event-name">
-                                <h6>
+                                 
                                     Мелітопольський інститут 
                                     державного та муніципального 
                                     управління 
                                     «Класичного приватного унверситету»
-                                </h6>
+                                 
                             </div>
-                            <div class="event-date">2015-2019</div>
+                            
                             <div class="event-description">
                                 <p>
                                     Технічний фахівець 
@@ -92,11 +92,11 @@ const htmlContentAboutExp = `
                                     Напрямок: Системний аналіз.
                                 </p>
                             </div>
-                            
+                            <div class="event-date">2015-2019</div>
                         </div>
                         <div class="education-2">
-                            <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
-                            <div class="event-date">2020</div>
+                            <div class="event-name"> Компанія "ROBOCODE" м.Київ </div>
+                            
                             <div class="event-description">
                                 <p>
                                     Курси підготовки з 
@@ -104,11 +104,11 @@ const htmlContentAboutExp = `
                                     в освітній сфері.
                                 </p>
                             </div>
-                            
+                            <div class="event-date">2020</div>
                         </div>
                         <div class="education-3">
-                            <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
-                            <div class="event-date">2020</div>
+                            <div class="event-name"> Компанія "ROBOCODE" м.Київ </div>
+                            
                             <div class="event-description">
                                 <p>
                                     Курси з розрокби ігр 
@@ -116,11 +116,11 @@ const htmlContentAboutExp = `
                                     Програмування на C#
                                 </p> 
                             </div>
-                            
+                            <div class="event-date">2020</div>
                         </div>
                         <div class="education-4">
-                            <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
-                            <div class="event-date">2021</div>
+                            <div class="event-name"> Компанія "ROBOCODE" м.Київ </div>
+                            
                             <div class="event-description">
                                 <p>
                                     Курси з веб розрокби
@@ -136,7 +136,7 @@ const htmlContentAboutExp = `
                                     </ul>
                                 </div>
                             </div>
-                            
+                            <div class="event-date">2021</div>
                         </div>
                     </div>
                     <div class="timeline">
@@ -154,12 +154,12 @@ const htmlContentAboutExp = `
                     <div class="event-below">
                         <div class="work-1">
                             
-                            <div class="event-name"><h6>Енергодарська ДЮСШ №1</h6></div>
-                            <div class="event-date">2015-2020</div>
+                            <div class="event-name"> Енергодарська ДЮСШ №1 </div>
+
                             <div class="event-description">
-                                <h6>
-                                    Керівник гуртка робототехніки
-                                </h6>
+                                 
+                                    <p>Керівник гуртка робототехніки</p>
+                                 
                                 <div style="padding-left:20px;">
                                     <ul>
                                         <li>Розробка навчальних програм та планів для участників гуртка.</li>
@@ -170,16 +170,17 @@ const htmlContentAboutExp = `
                                     </ul>
                                 </div>
                             </div>
+                            <div class="event-date">2015-2020</div>
 
                         </div>
                         <div class="work-2">
                             
-                            <div class="event-name"><h6>Компанія "ROBOCODE" м.Київ</h6></div>
-                            <div class="event-date">2019-2023</div>
+                            <div class="event-name"> Компанія "ROBOCODE" м.Київ </div>
+                            
                             <div class="event-description">
-                                <h6>
-                                    Керівник приватної школи програмування та робототехніки
-                                </h6>
+                                 
+                                    <p>Керівник приватної школи програмування та робототехніки</p>
+                                 
                                 <div style="padding-left:20px;">
                                     <ul>
                                         <li>Координація роботи викладачів та інструкторів у приватній школі.</li>
@@ -189,7 +190,7 @@ const htmlContentAboutExp = `
                                     </ul>
                                 </div>
                             </div>
-
+                            <div class="event-date">2019-2023</div>
                         </div>
                     </div>
                 </div>
@@ -304,13 +305,25 @@ const htmlContentAboutSkills = `
                 </div>
 `
 const htmlContentAboutPortfolio = `
-    <div id="PORTFOLIO">
-                    <div class="example-1">ЗРАЗОК</div>
-                    <div class="example-2">ЗРАЗОК</div>
-                    <div class="example-3">ЗРАЗОК</div>
-                    <div class="example-4">ЗРАЗОК</div>
-                    <div class="example-5">ЗРАЗОК</div>
-                    <div class="example-6">ЗРАЗОК</div>
-                    <div class="example-7">ЗРАЗОК</div>
-                </div>
+    <section id="PROJECT">
+                    <div class="project-container">
+                        <div class="project-nav">
+                            <div id="EX_1" class="button-project-nav" onclick="loadExample(event)">Example-1</div>
+                            <div id="EX_2" class="button-project-nav" onclick="loadExample(event)">Example-2</div>
+                            <div id="EX_3" class="button-project-nav" onclick="loadExample(event)">Example-3</div>
+                        </div>
+                        <div class="project-description">
+                            <div class="project-link">
+                                <div class="project-link-git">link</div>
+                                <div class="project-link-browser">link</div>
+                            </div>
+                            <div class="project-adaptive">Adaptive:</div>
+                            <div class="project-resolutions">Resolutions:</div>
+                            <div class="project-current-resolutions" id="WITH_DISPLAY"> Current Resolutions: </div>
+                        </div>
+                        <div class="project-load_page" id="RPOJECT-LOAD">
+
+                        </div>
+                    </div>
+                </section>
 `

@@ -22,3 +22,13 @@ document.querySelectorAll('#BUTTON-BOX .button-nav').forEach(button => {
         // alert(this + " activ");
     });
 });
+
+// document.querySelectorAll('.project-container .project-nav').forEach(button => {
+//     button.addEventListener('click', function() {
+//         // Удаляем класс 'active' у всех кнопок
+//         document.querySelectorAll('.project-container .project-nav').forEach(btn => btn.classList.remove('active'));
+//         // Добавляем класс 'active' к нажатой кнопке
+//         this.classList.add('active');
+//         // alert(this + " activ");
+//     });
+// });

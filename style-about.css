@@ -7,33 +7,33 @@
     width: auto;
     height: auto;
     display: flex;
-    line-height: 32px;
+    line-height: 45px;
     align-items: center;
     justify-content: center;
-    padding: 15px;
-    background-color: white;
+    padding: 0 45px 0 45px;
+    background-color: rgba(245, 245, 245, 1);
     border-radius: 10px;
-    border:3px solid rgb(4, 113, 236);
 }
-.text-box{
-    font-size: 20px;
-    text-align: justify
+.text-box p, .text-box strong{
+    font-size: 24px;
+    font-family: 'Arsenal';
+    text-align: justify;
 }
 .text-box p{
         text-indent:30px;
 }
 #ABOUT-ME .photo{
-    width: 250px;
+    width: auto;
     height: auto;
     border: 1px solid black;
 }
 #ABOUT-ME {
     display: grid;
     grid-template-areas: 
-        "intro intro photo photo photo"
-        "main main photo photo photo"
+        "intro intro intro intro photo"
+        "main main main main main"
         "conclusion conclusion conclusion conclusion conclusion";
-    gap: 20px;
+    gap: 35px;
 }
 
 .intro {
@@ -49,9 +49,9 @@
     grid-area: conclusion;
 }
 @media screen and (max-width: 1200px){
-    .text-box{
-        font-size: 16px;
-        line-height: 24px;
+    .text-box p, .text-box strong{
+        font-size: 18px;
+        line-height: 32px;
     }
     
 }
@@ -59,9 +59,9 @@
     #ABOUT-ME {
         display: grid;
         grid-template-areas: 
-            "intro intro intro photo photo"
+            "intro intro intro intro photo"
             "main main main main main"
-            "conclusion conclusion conclusion conclusion conclusion"
+            "main main main main main"
             "conclusion conclusion conclusion conclusion conclusion";
         gap: 20px;
     }
@@ -72,8 +72,38 @@
         border: 1px solid black;
     }
     .text-box{
+        padding: 0 20px 0 20px;
+
+    }
+    .text-box p, .text-box strong{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+}
+@media screen and (max-width: 510px){
+    #ABOUT-ME {
+        display: grid;
+        grid-template-areas: 
+            "intro intro intro intro photo"
+            "main main main main main"
+            "main main main main main"
+            "conclusion conclusion conclusion conclusion conclusion";
+        gap: 10px;
+    }
+    #ABOUT-ME .photo{
+        width: auto;
+        height: auto;
+        min-width: 150px;
+        border: 1px solid black;
+    }
+    .text-box{
+        padding: 0 10px 0 10px;
+
+    }
+    .text-box p, .text-box strong{
         font-size: 14px;
-        line-height: 18px;
+        line-height: 22px;
     }
 
 }
